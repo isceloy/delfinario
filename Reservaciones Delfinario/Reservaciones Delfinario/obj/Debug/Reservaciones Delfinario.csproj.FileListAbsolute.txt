@@ -1,0 +1,14 @@
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe.config
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.pdb
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.exe
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.pdb
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Form1.resources
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csprojResolveAssemblyReference.cache
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Conexion.dll
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\MySql.Data.dll
+c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Conexion.pdb
+C:\Users\Jorge Trejo\Documents\Visual Studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_ConfiguraServidor.resources
+C:\Users\Jorge Trejo\Documents\Visual Studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_MenuPrincipal.resources
