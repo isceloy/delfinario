@@ -32,11 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_MenuPrincipal));
             this.tbc_Menu = new System.Windows.Forms.TabControl();
             this.tbp_Reservaciones = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tbp_Disponibilidad = new System.Windows.Forms.TabPage();
             this.tbp_Catalagos = new System.Windows.Forms.TabPage();
             this.tbp_Usuarios = new System.Windows.Forms.TabPage();
             this.imgl_ListaIconos = new System.Windows.Forms.ImageList(this.components);
-            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tbc_Menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +69,19 @@
             this.tbp_Reservaciones.Size = new System.Drawing.Size(1016, 709);
             this.tbp_Reservaciones.TabIndex = 0;
             this.tbp_Reservaciones.ToolTipText = "Reservaciones";
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Fondo;
+            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage1.ImageIndex = 4;
+            this.tabPage1.Location = new System.Drawing.Point(4, 55);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1016, 709);
+            this.tabPage1.TabIndex = 4;
+            this.tabPage1.ToolTipText = "Fotos";
             // 
             // tbp_Disponibilidad
             // 
@@ -117,19 +130,6 @@
             this.imgl_ListaIconos.Images.SetKeyName(3, "Usuarios.png");
             this.imgl_ListaIconos.Images.SetKeyName(4, "Fotos.png");
             // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage1.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Fondo;
-            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage1.ImageIndex = 4;
-            this.tabPage1.Location = new System.Drawing.Point(4, 55);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1016, 709);
-            this.tabPage1.TabIndex = 4;
-            this.tabPage1.ToolTipText = "Fotos";
-            // 
             // frm_MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -137,10 +137,12 @@
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.tbc_Menu);
             this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frm_MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MENU PRINCIPAL";
+            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_MenuPrincipal_FormClosing);
             this.tbc_Menu.ResumeLayout(false);
