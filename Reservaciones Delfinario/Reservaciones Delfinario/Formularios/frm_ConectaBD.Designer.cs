@@ -209,6 +209,7 @@
             this.btn_Acceder.TabIndex = 3;
             this.btn_Acceder.Text = "Acceder";
             this.btn_Acceder.UseVisualStyleBackColor = false;
+            this.btn_Acceder.Click += new System.EventHandler(this.btn_Acceder_Click);
             // 
             // btn_Cerrar
             // 

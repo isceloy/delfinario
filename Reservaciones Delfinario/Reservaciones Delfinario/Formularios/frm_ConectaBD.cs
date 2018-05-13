@@ -160,5 +160,45 @@ namespace Reservaciones_Delfinario
                 txt_Clave.UseSystemPasswordChar = false;
             }
         }
+
+        private void btn_Acceder_Click(object sender, EventArgs e)
+        {
+            dto_entrar.Usuario = txt_Usuario.Text;
+            dto_entrar.Contraseña = txt_Clave.Text;
+            if (!String.IsNullOrEmpty(dto_entrar.Usuario) && !String.IsNullOrEmpty(dto_entrar.Contraseña))
+            {
+                Query = dao_entrar.Entrar(dto_entrar.Usuario, dto_entrar.Contraseña);
+                dt = con.Ejecuta_Query(Query);
+                Limpiar_Cajas();
+                if (dt.Rows.Count > 0)
+                {
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        foreach (DataColumn col in dt.Columns)
+                        {
+                            if (col.ColumnName == "tipo")
+                            {
+                                if (row[col].ToString() == "Administrador")
+                                {
+                                    MessageBox.Show("Bienvenido " + row["nombre"].ToString(), "Delfinario 1.0", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    this.Visible = false;
+                                    frm_MenuPrincipal frmP = new frm_MenuPrincipal();
+                                    frmP.Show();
+                                    Dispose();
+                                }
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Usuario y/o contraseña incorrectos", "Delfinario 1.0", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Los campos de usuario y contraseña son obligatorios", "Delfinario 1.0", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
