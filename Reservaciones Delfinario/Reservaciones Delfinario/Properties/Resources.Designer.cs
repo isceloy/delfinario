@@ -73,6 +73,16 @@ namespace Reservaciones_Delfinario.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap close {
+            get {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo {
             get {
                 object obj = ResourceManager.GetObject("Fondo", resourceCulture);
@@ -86,6 +96,16 @@ namespace Reservaciones_Delfinario.Properties {
         internal static System.Drawing.Bitmap Llave {
             get {
                 object obj = ResourceManager.GetObject("Llave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_delfiniti {
+            get {
+                object obj = ResourceManager.GetObject("logo_delfiniti", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -112,5 +112,53 @@ namespace Reservaciones_Delfinario
             txt_Usuario.Text = "";
             txt_Clave.Text = "";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Cerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void txt_Usuario_Enter(object sender, EventArgs e)
+        {
+            if(txt_Usuario.Text == "USUARIO")
+            {
+                txt_Usuario.Text = "";
+                txt_Usuario.ForeColor = Color.LightGray;
+            }
+         }
+
+        private void txt_Usuario_Leave(object sender, EventArgs e)
+        {
+            if (txt_Usuario.Text == "")
+            {
+                txt_Usuario.Text = "USUARIO";
+                txt_Usuario.ForeColor = Color.Gray ;
+            }
+        }
+
+        private void txt_Clave_Enter(object sender, EventArgs e)
+        {
+            if (txt_Clave.Text == "CONTRASEÑA")
+            {
+                txt_Clave.Text = "";
+                txt_Clave.ForeColor = Color.LightGray;
+                txt_Clave.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void txt_Clave_Leave(object sender, EventArgs e)
+        {
+            if (txt_Clave.Text == "")
+            {
+                txt_Clave.Text = "CONTRASEÑA";
+                txt_Clave.ForeColor = Color.Gray  ;
+                txt_Clave.UseSystemPasswordChar = false;
+            }
+        }
     }
 }

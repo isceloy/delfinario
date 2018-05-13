@@ -112,11 +112,13 @@
     <Content Include="Recursos\Calendario-Reloj.png" />
     <Content Include="Recursos\Cancelar.png" />
     <Content Include="Recursos\Carpeta.png" />
+    <Content Include="Recursos\close.png" />
     <Content Include="Recursos\Fondo.jpg" />
     <Content Include="Recursos\Fotos.png" />
     <Content Include="Recursos\Guardar.png" />
     <Content Include="Recursos\Impresora.png" />
     <Content Include="Recursos\Llave.png" />
+    <Content Include="Recursos\logo_delfiniti.png" />
     <Content Include="Recursos\Ok.png" />
     <Content Include="Recursos\Registro.png" />
     <Content Include="Recursos\Usuario.png" />
