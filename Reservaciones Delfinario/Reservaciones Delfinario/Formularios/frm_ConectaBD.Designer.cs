@@ -96,7 +96,7 @@
             this.btn_Servidor.Name = "btn_Servidor";
             this.btn_Servidor.Size = new System.Drawing.Size(307, 40);
             this.btn_Servidor.TabIndex = 4;
-            this.btn_Servidor.Text = "Configura Servidor";
+            this.btn_Servidor.Text = "Configurar Servidor";
             this.tot_Ayuda.SetToolTip(this.btn_Servidor, "Configura Servidor");
             this.btn_Servidor.UseVisualStyleBackColor = false;
             this.btn_Servidor.Click += new System.EventHandler(this.btn_Servidor_Click);
