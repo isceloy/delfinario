@@ -212,6 +212,7 @@
             // 
             // btn_Cerrar
             // 
+            this.btn_Cerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Cerrar.Image = global::Reservaciones_Delfinario.Properties.Resources.close;
             this.btn_Cerrar.Location = new System.Drawing.Point(704, 3);
             this.btn_Cerrar.Name = "btn_Cerrar";
