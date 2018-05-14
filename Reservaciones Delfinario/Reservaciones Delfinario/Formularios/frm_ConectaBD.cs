@@ -14,9 +14,6 @@ namespace Reservaciones_Delfinario
     public partial class Form1 : Form
     {
         private Conectar.Conexion con = new Conectar.Conexion();
-        private String user = "";
-        private String pass = "";
-        private String tipo_usuario = "";
         private DTO.DTO_Entrar dto_entrar = new DTO.DTO_Entrar();
         private DAO.DAO_Entrar dao_entrar = new DAO.DAO_Entrar();
         private DataTable dt = new DataTable();

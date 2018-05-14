@@ -141,7 +141,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 328);
-            this.panel1.TabIndex = 7;
+            this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
