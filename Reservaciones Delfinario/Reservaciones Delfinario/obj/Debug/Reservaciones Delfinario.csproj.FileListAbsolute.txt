@@ -20,7 +20,6 @@ C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reserv
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csprojResolveAssemblyReference.cache
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Form1.resources
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_ConfiguraServidor.resources
-C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_MenuPrincipal.resources
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe.config
@@ -35,3 +34,4 @@ C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservacion
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.frm_Pricipal.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.frm_Pricipal.resources

@@ -80,17 +80,11 @@
     <Compile Include="Formularios\frm_ConfiguraServidor.Designer.cs">
       <DependentUpon>frm_ConfiguraServidor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\frm_MenuPrincipal.cs">
+    <Compile Include="Formularios\frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\frm_MenuPrincipal.Designer.cs">
-      <DependentUpon>frm_MenuPrincipal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\frm_Pricipal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\frm_Pricipal.Designer.cs">
-      <DependentUpon>frm_Pricipal.cs</DependentUpon>
+    <Compile Include="Formularios\frm_Principal.Designer.cs">
+      <DependentUpon>frm_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,11 +94,8 @@
     <EmbeddedResource Include="Formularios\frm_ConfiguraServidor.resx">
       <DependentUpon>frm_ConfiguraServidor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\frm_MenuPrincipal.resx">
-      <DependentUpon>frm_MenuPrincipal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\frm_Pricipal.resx">
-      <DependentUpon>frm_Pricipal.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\frm_Principal.resx">
+      <DependentUpon>frm_Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
