@@ -34,3 +34,4 @@ C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservacion
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_MenuPrincipal.resources
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
+C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.frm_Pricipal.resources
