@@ -52,7 +52,7 @@ namespace Reservaciones_Delfinario
         private void mi_Disponibilidad_Click(object sender, EventArgs e)
         {
             frm_Disponible formulario = new frm_Disponible();
-            formulario.MdiParent = this;
+            formulario.MdiParent = this.MdiParent;
             formulario.Show();
         }
     }
