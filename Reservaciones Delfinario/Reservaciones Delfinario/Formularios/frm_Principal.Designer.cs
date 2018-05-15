@@ -81,6 +81,7 @@
             this.mi_Disponibilidad.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Disponibilidad.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Disponibilidad.ToolTipText = "Disponibilidad";
+            this.mi_Disponibilidad.Click += new System.EventHandler(this.mi_Disponibilidad_Click);
             // 
             // mi_Fotos
             // 

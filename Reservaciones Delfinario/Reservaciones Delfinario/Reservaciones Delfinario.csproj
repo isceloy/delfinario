@@ -80,6 +80,12 @@
     <Compile Include="Formularios\frm_ConfiguraServidor.Designer.cs">
       <DependentUpon>frm_ConfiguraServidor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frm_Disponible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_Disponible.Designer.cs">
+      <DependentUpon>frm_Disponible.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>

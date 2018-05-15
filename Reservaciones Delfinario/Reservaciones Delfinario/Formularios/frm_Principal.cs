@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Reservaciones_Delfinario.Formularios;
 
 namespace Reservaciones_Delfinario
 {
@@ -39,6 +40,20 @@ namespace Reservaciones_Delfinario
             this.Dispose();
             Form1 frm = new Form1();
             frm.Show();
+        }
+
+        private void disponibilidadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Disponible formulario = new frm_Disponible();
+            formulario.MdiParent = this;
+            formulario.Show();
+        }
+
+        private void mi_Disponibilidad_Click(object sender, EventArgs e)
+        {
+            frm_Disponible formulario = new frm_Disponible();
+            formulario.MdiParent = this;
+            formulario.Show();
         }
     }
 }
