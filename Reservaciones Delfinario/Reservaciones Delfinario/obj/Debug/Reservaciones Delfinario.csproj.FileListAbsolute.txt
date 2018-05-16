@@ -39,3 +39,4 @@ C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reserv
 =======
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Disponible.resources
 >>>>>>> adad768588920696922d3f983bd55d435010c5c7
+C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Reservaciones.resources
