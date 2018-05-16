@@ -92,6 +92,12 @@
     <Compile Include="Formularios\frm_Principal.Designer.cs">
       <DependentUpon>frm_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frm_Reservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_Reservaciones.Designer.cs">
+      <DependentUpon>frm_Reservaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\frm_ConectaBD.resx">
@@ -105,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_Principal.resx">
       <DependentUpon>frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_Reservaciones.resx">
+      <DependentUpon>frm_Reservaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
