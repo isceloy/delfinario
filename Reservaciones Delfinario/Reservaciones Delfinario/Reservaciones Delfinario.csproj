@@ -106,6 +106,9 @@
     <EmbeddedResource Include="Formularios\frm_ConfiguraServidor.resx">
       <DependentUpon>frm_ConfiguraServidor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_Disponible.resx">
+      <DependentUpon>frm_Disponible.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_Principal.resx">
       <DependentUpon>frm_Principal.cs</DependentUpon>
     </EmbeddedResource>
