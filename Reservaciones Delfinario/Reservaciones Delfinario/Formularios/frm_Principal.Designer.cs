@@ -68,6 +68,7 @@
             this.mi_Reservaciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Reservaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Reservaciones.ToolTipText = "Reservaciones";
+            this.mi_Reservaciones.Click += new System.EventHandler(this.mi_Reservaciones_Click);
             // 
             // mi_Disponibilidad
             // 
@@ -150,6 +151,7 @@
             this.MainMenuStrip = this.ms_Barra;
             this.MinimumSize = new System.Drawing.Size(1024, 726);
             this.Name = "frm_Pricipal";
+            this.Opacity = 0.99D;
             this.Text = "MENU PRINCIPAL";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Pricipal_FormClosing);

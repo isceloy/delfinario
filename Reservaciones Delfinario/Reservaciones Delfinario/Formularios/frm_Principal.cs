@@ -55,5 +55,12 @@ namespace Reservaciones_Delfinario
             formulario.MdiParent = this.MdiParent;
             formulario.Show();
         }
+
+        private void mi_Reservaciones_Click(object sender, EventArgs e)
+        {
+            frm_Reservaciones frmReservas = new frm_Reservaciones();
+            frmReservas.MdiParent = this.MdiParent;
+            frmReservas.Show();
+        }
     }
 }
