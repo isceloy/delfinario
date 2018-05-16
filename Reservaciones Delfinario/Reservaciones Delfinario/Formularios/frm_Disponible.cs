@@ -15,6 +15,14 @@ namespace Reservaciones_Delfinario.Formularios
         public frm_Disponible()
         {
             InitializeComponent();
+
+            dtg_Nado.Columns.Add("reservacion","Reservación");
+            dtg_Nado.Columns.Add("cliente", "Cliente");
+            dtg_Nado.Columns.Add("cantidad", "Cantidad");
+
+            dtg_Nado.Rows.Add("1234","Cliente Paterno Materno","3");
+            dtg_Nado.Rows.Add("1234", "Cliente Paterno Materno", "2");
         }
+
     }
 }
