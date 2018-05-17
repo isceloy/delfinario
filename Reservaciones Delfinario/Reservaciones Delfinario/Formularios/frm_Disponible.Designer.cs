@@ -30,9 +30,9 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_Buscar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Pagados = new System.Windows.Forms.TextBox();
+            this.txt_Cortesias = new System.Windows.Forms.TextBox();
+            this.txt_Total_Diario = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -105,12 +105,12 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.dataGridView11 = new System.Windows.Forms.DataGridView();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.cb_Ocultar = new System.Windows.Forms.CheckBox();
+            this.cb_Resumen = new System.Windows.Forms.CheckBox();
+            this.btm_Adeudos = new System.Windows.Forms.Button();
+            this.btn_Reservar = new System.Windows.Forms.Button();
+            this.btn_Cupones = new System.Windows.Forms.Button();
+            this.btn_Cancelar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -133,9 +133,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btn_Buscar);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_Pagados);
+            this.groupBox1.Controls.Add(this.txt_Cortesias);
+            this.groupBox1.Controls.Add(this.txt_Total_Diario);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -151,43 +151,43 @@
             // 
             // btn_Buscar
             // 
-            this.btn_Buscar.Location = new System.Drawing.Point(359, 20);
+            this.btn_Buscar.Location = new System.Drawing.Point(298, 20);
             this.btn_Buscar.Name = "btn_Buscar";
             this.btn_Buscar.Size = new System.Drawing.Size(75, 23);
             this.btn_Buscar.TabIndex = 9;
             this.btn_Buscar.Text = "Buscar";
             this.btn_Buscar.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txt_Pagados
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(824, 17);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 8;
+            this.txt_Pagados.Enabled = false;
+            this.txt_Pagados.Location = new System.Drawing.Point(788, 17);
+            this.txt_Pagados.Name = "txt_Pagados";
+            this.txt_Pagados.Size = new System.Drawing.Size(100, 20);
+            this.txt_Pagados.TabIndex = 8;
             // 
-            // textBox2
+            // txt_Cortesias
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(994, 19);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 7;
+            this.txt_Cortesias.Enabled = false;
+            this.txt_Cortesias.Location = new System.Drawing.Point(958, 19);
+            this.txt_Cortesias.Name = "txt_Cortesias";
+            this.txt_Cortesias.Size = new System.Drawing.Size(100, 20);
+            this.txt_Cortesias.TabIndex = 7;
             // 
-            // textBox1
+            // txt_Total_Diario
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(653, 18);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            this.txt_Total_Diario.Enabled = false;
+            this.txt_Total_Diario.Location = new System.Drawing.Point(617, 18);
+            this.txt_Total_Diario.Name = "txt_Total_Diario";
+            this.txt_Total_Diario.Size = new System.Drawing.Size(100, 20);
+            this.txt_Total_Diario.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(930, 20);
+            this.label4.Location = new System.Drawing.Point(894, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 4;
@@ -198,7 +198,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(760, 20);
+            this.label3.Location = new System.Drawing.Point(724, 20);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 16);
             this.label3.TabIndex = 3;
@@ -209,7 +209,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(576, 20);
+            this.label2.Location = new System.Drawing.Point(540, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 16);
             this.label2.TabIndex = 2;
@@ -217,9 +217,11 @@
             // 
             // dtp_Fecha
             // 
-            this.dtp_Fecha.Location = new System.Drawing.Point(153, 22);
+            this.dtp_Fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_Fecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp_Fecha.Location = new System.Drawing.Point(187, 22);
             this.dtp_Fecha.Name = "dtp_Fecha";
-            this.dtp_Fecha.Size = new System.Drawing.Size(200, 20);
+            this.dtp_Fecha.Size = new System.Drawing.Size(103, 22);
             this.dtp_Fecha.TabIndex = 1;
             // 
             // label1
@@ -227,7 +229,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(105, 24);
+            this.label1.Location = new System.Drawing.Point(139, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 16);
             this.label1.TabIndex = 0;
@@ -934,67 +936,67 @@
             this.dataGridView11.Size = new System.Drawing.Size(269, 102);
             this.dataGridView11.TabIndex = 0;
             // 
-            // checkBox1
+            // cb_Ocultar
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.ForeColor = System.Drawing.Color.Black;
-            this.checkBox1.Location = new System.Drawing.Point(67, 527);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(233, 17);
-            this.checkBox1.TabIndex = 26;
-            this.checkBox1.Text = "Ocultar Programas y Horarios no disponibles";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cb_Ocultar.AutoSize = true;
+            this.cb_Ocultar.ForeColor = System.Drawing.Color.Black;
+            this.cb_Ocultar.Location = new System.Drawing.Point(67, 527);
+            this.cb_Ocultar.Name = "cb_Ocultar";
+            this.cb_Ocultar.Size = new System.Drawing.Size(233, 17);
+            this.cb_Ocultar.TabIndex = 26;
+            this.cb_Ocultar.Text = "Ocultar Programas y Horarios no disponibles";
+            this.cb_Ocultar.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // cb_Resumen
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.ForeColor = System.Drawing.Color.Black;
-            this.checkBox2.Location = new System.Drawing.Point(363, 527);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(71, 17);
-            this.checkBox2.TabIndex = 27;
-            this.checkBox2.Text = "Resumen";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cb_Resumen.AutoSize = true;
+            this.cb_Resumen.ForeColor = System.Drawing.Color.Black;
+            this.cb_Resumen.Location = new System.Drawing.Point(363, 527);
+            this.cb_Resumen.Name = "cb_Resumen";
+            this.cb_Resumen.Size = new System.Drawing.Size(71, 17);
+            this.cb_Resumen.TabIndex = 27;
+            this.cb_Resumen.Text = "Resumen";
+            this.cb_Resumen.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btm_Adeudos
             // 
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(580, 521);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Adeudos";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btm_Adeudos.ForeColor = System.Drawing.Color.Black;
+            this.btm_Adeudos.Location = new System.Drawing.Point(580, 521);
+            this.btm_Adeudos.Name = "btm_Adeudos";
+            this.btm_Adeudos.Size = new System.Drawing.Size(75, 23);
+            this.btm_Adeudos.TabIndex = 28;
+            this.btm_Adeudos.Text = "Adeudos";
+            this.btm_Adeudos.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_Reservar
             // 
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(695, 521);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "Reservar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_Reservar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Reservar.Location = new System.Drawing.Point(695, 521);
+            this.btn_Reservar.Name = "btn_Reservar";
+            this.btn_Reservar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Reservar.TabIndex = 29;
+            this.btn_Reservar.Text = "Reservar";
+            this.btn_Reservar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_Cupones
             // 
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(1119, 523);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "Cupones";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_Cupones.ForeColor = System.Drawing.Color.Black;
+            this.btn_Cupones.Location = new System.Drawing.Point(1119, 523);
+            this.btn_Cupones.Name = "btn_Cupones";
+            this.btn_Cupones.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cupones.TabIndex = 30;
+            this.btn_Cupones.Text = "Cupones";
+            this.btn_Cupones.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_Cancelar
             // 
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(803, 521);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 31;
-            this.button4.Text = "Cancelar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_Cancelar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Cancelar.Location = new System.Drawing.Point(803, 521);
+            this.btn_Cancelar.Name = "btn_Cancelar";
+            this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cancelar.TabIndex = 31;
+            this.btn_Cancelar.Text = "Cancelar";
+            this.btn_Cancelar.UseVisualStyleBackColor = true;
             // 
             // frm_Disponible
             // 
@@ -1002,12 +1004,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1209, 556);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.btn_Cancelar);
+            this.Controls.Add(this.btn_Cupones);
+            this.Controls.Add(this.btn_Reservar);
+            this.Controls.Add(this.btm_Adeudos);
+            this.Controls.Add(this.cb_Resumen);
+            this.Controls.Add(this.cb_Ocultar);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -1057,9 +1059,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Pagados;
+        private System.Windows.Forms.TextBox txt_Cortesias;
+        private System.Windows.Forms.TextBox txt_Total_Diario;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
@@ -1128,11 +1130,11 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.DataGridView dataGridView11;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.CheckBox cb_Ocultar;
+        private System.Windows.Forms.CheckBox cb_Resumen;
+        private System.Windows.Forms.Button btm_Adeudos;
+        private System.Windows.Forms.Button btn_Reservar;
+        private System.Windows.Forms.Button btn_Cupones;
+        private System.Windows.Forms.Button btn_Cancelar;
     }
 }
