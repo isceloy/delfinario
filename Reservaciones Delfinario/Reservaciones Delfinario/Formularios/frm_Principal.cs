@@ -62,5 +62,19 @@ namespace Reservaciones_Delfinario
             frmReservas.MdiParent = this.MdiParent;
             frmReservas.Show();
         }
+
+        private void tmi_TipoCambio_Click(object sender, EventArgs e)
+        {
+            frm_TipoCambio frmTC = new frm_TipoCambio();
+            frmTC.MdiParent = this.MdiParent;
+            frmTC.Show();
+        }
+
+        private void mi_Usuarios_Click(object sender, EventArgs e)
+        {
+            frm_Usuarios frmU = new frm_Usuarios();
+            frmU.MdiParent = this.MdiParent;
+            frmU.Show();
+        }
     }
 }

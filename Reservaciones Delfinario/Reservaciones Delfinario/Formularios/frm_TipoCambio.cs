@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Reservaciones_Delfinario.Formularios
 {
-    public partial class frm_Reservaciones : Form
+    public partial class frm_TipoCambio : Form
     {
-        public frm_Reservaciones()
+        public frm_TipoCambio()
         {
             InitializeComponent();
-        }
-
-        private void btn_Busca_Click(object sender, EventArgs e)
-        {
-            frm_ConsultaReservas frmReservas = new frm_ConsultaReservas();
-            frmReservas.Show();
-            this.Close();
         }
     }
 }

@@ -29,13 +29,15 @@
         private void InitializeComponent()
         {
             this.ms_Barra = new System.Windows.Forms.MenuStrip();
+            this.ss_Estado = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.mi_Reservaciones = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Disponibilidad = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Fotos = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Catalagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.tmi_TipoCambio = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Usuarios = new System.Windows.Forms.ToolStripMenuItem();
-            this.ss_Estado = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.mi_Reportes = new System.Windows.Forms.ToolStripMenuItem();
             this.ms_Barra.SuspendLayout();
             this.ss_Estado.SuspendLayout();
             this.SuspendLayout();
@@ -48,13 +50,30 @@
             this.mi_Disponibilidad,
             this.mi_Fotos,
             this.mi_Catalagos,
-            this.mi_Usuarios});
+            this.mi_Usuarios,
+            this.mi_Reportes});
             this.ms_Barra.Location = new System.Drawing.Point(0, 0);
             this.ms_Barra.Name = "ms_Barra";
             this.ms_Barra.ShowItemToolTips = true;
             this.ms_Barra.Size = new System.Drawing.Size(1008, 56);
             this.ms_Barra.TabIndex = 0;
             this.ms_Barra.Text = "MenuStrip";
+            // 
+            // ss_Estado
+            // 
+            this.ss_Estado.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel});
+            this.ss_Estado.Location = new System.Drawing.Point(0, 587);
+            this.ss_Estado.Name = "ss_Estado";
+            this.ss_Estado.Size = new System.Drawing.Size(1008, 22);
+            this.ss_Estado.TabIndex = 2;
+            this.ss_Estado.Text = "StatusStrip";
+            // 
+            // toolStripStatusLabel
+            // 
+            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
+            this.toolStripStatusLabel.Text = "Estado";
             // 
             // mi_Reservaciones
             // 
@@ -100,6 +119,8 @@
             // mi_Catalagos
             // 
             this.mi_Catalagos.AutoToolTip = true;
+            this.mi_Catalagos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tmi_TipoCambio});
             this.mi_Catalagos.Image = global::Reservaciones_Delfinario.Properties.Resources.Carpeta;
             this.mi_Catalagos.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Catalagos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -109,6 +130,16 @@
             this.mi_Catalagos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Catalagos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Catalagos.ToolTipText = "Catálagos";
+            // 
+            // tmi_TipoCambio
+            // 
+            this.tmi_TipoCambio.BackColor = System.Drawing.Color.Transparent;
+            this.tmi_TipoCambio.Image = global::Reservaciones_Delfinario.Properties.Resources.Billete;
+            this.tmi_TipoCambio.ImageTransparentColor = System.Drawing.Color.Transparent;
+            this.tmi_TipoCambio.Name = "tmi_TipoCambio";
+            this.tmi_TipoCambio.Size = new System.Drawing.Size(157, 22);
+            this.tmi_TipoCambio.Text = "Tipo de cambio";
+            this.tmi_TipoCambio.Click += new System.EventHandler(this.tmi_TipoCambio_Click);
             // 
             // mi_Usuarios
             // 
@@ -122,34 +153,32 @@
             this.mi_Usuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Usuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Usuarios.ToolTipText = "Usuarios";
+            this.mi_Usuarios.Click += new System.EventHandler(this.mi_Usuarios_Click);
             // 
-            // ss_Estado
+            // mi_Reportes
             // 
-            this.ss_Estado.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel});
-            this.ss_Estado.Location = new System.Drawing.Point(0, 707);
-            this.ss_Estado.Name = "ss_Estado";
-            this.ss_Estado.Size = new System.Drawing.Size(1008, 22);
-            this.ss_Estado.TabIndex = 2;
-            this.ss_Estado.Text = "StatusStrip";
-            // 
-            // toolStripStatusLabel
-            // 
-            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
-            this.toolStripStatusLabel.Text = "Estado";
+            this.mi_Reportes.AutoToolTip = true;
+            this.mi_Reportes.Image = global::Reservaciones_Delfinario.Properties.Resources.Excel;
+            this.mi_Reportes.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.mi_Reportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.mi_Reportes.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
+            this.mi_Reportes.Name = "mi_Reportes";
+            this.mi_Reportes.Size = new System.Drawing.Size(60, 52);
+            this.mi_Reportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.mi_Reportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.mi_Reportes.ToolTipText = "Reportes";
             // 
             // frm_Pricipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.ClientSize = new System.Drawing.Size(1008, 609);
             this.Controls.Add(this.ss_Estado);
             this.Controls.Add(this.ms_Barra);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.ms_Barra;
-            this.MinimumSize = new System.Drawing.Size(1024, 726);
+            this.MinimumSize = new System.Drawing.Size(1024, 597);
             this.Name = "frm_Pricipal";
             this.Opacity = 0.99D;
             this.Text = "MENU PRINCIPAL";
@@ -175,6 +204,8 @@
         private System.Windows.Forms.ToolStripMenuItem mi_Disponibilidad;
         private System.Windows.Forms.ToolStripMenuItem mi_Fotos;
         private System.Windows.Forms.ToolStripMenuItem mi_Catalagos;
+        private System.Windows.Forms.ToolStripMenuItem tmi_TipoCambio;
+        private System.Windows.Forms.ToolStripMenuItem mi_Reportes;
     }
 }
 

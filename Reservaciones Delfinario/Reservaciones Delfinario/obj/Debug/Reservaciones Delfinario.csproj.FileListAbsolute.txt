@@ -1,42 +1,15 @@
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe.config
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.pdb
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.exe
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.pdb
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Form1.resources
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csprojResolveAssemblyReference.cache
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Conexion.dll
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\MySql.Data.dll
-c:\users\jorge trejo\documents\visual studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Conexion.pdb
-C:\Users\Jorge Trejo\Documents\Visual Studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_ConfiguraServidor.resources
-C:\Users\Jorge Trejo\Documents\Visual Studio 2015\Projects\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_MenuPrincipal.resources
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe.config
-C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.exe
-C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.pdb
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.pdb
-C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csprojResolveAssemblyReference.cache
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Form1.resources
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_ConfiguraServidor.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_ConsultaReservas.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Disponible.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.frm_Pricipal.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Reservaciones.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_TipoCambio.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Usuarios.resources
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
 C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe.config
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.exe
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.pdb
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.exe
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\bin\Debug\Reservaciones Delfinario.pdb
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csprojResolveAssemblyReference.cache
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Form1.resources
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_ConfiguraServidor.resources
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.frm_Pricipal.resources
-C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.frm_Pricipal.resources
-<<<<<<< HEAD
-C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Reservaciones.resources
-=======
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Disponible.resources
->>>>>>> adad768588920696922d3f983bd55d435010c5c7
-C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Reservaciones.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.exe
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.pdb

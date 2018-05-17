@@ -50,9 +50,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.tot_Ayuda = new System.Windows.Forms.ToolTip(this.components);
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Calve = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nado = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -80,6 +77,10 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.btn_Busca = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -275,46 +276,6 @@
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(58, 24);
             this.comboBox5.TabIndex = 20;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Guardar;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(311, 469);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(36, 36);
-            this.button2.TabIndex = 37;
-            this.tot_Ayuda.SetToolTip(this.button2, "Guardar Reservación");
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Ok;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(555, 140);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(36, 36);
-            this.button1.TabIndex = 21;
-            this.tot_Ayuda.SetToolTip(this.button1, "Agregar Reservación");
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Cancelar;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(387, 469);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(36, 36);
-            this.button3.TabIndex = 38;
-            this.tot_Ayuda.SetToolTip(this.button3, "Cancelar Reservación");
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -625,13 +586,71 @@
             this.comboBox8.Size = new System.Drawing.Size(100, 24);
             this.comboBox8.TabIndex = 39;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Cancelar;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(409, 469);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(36, 36);
+            this.button4.TabIndex = 40;
+            this.tot_Ayuda.SetToolTip(this.button4, "Cancelar Reservación");
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // btn_Busca
+            // 
+            this.btn_Busca.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Busca.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Buscar;
+            this.btn_Busca.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Busca.FlatAppearance.BorderSize = 0;
+            this.btn_Busca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Busca.Location = new System.Drawing.Point(349, 469);
+            this.btn_Busca.Name = "btn_Busca";
+            this.btn_Busca.Size = new System.Drawing.Size(36, 36);
+            this.btn_Busca.TabIndex = 38;
+            this.tot_Ayuda.SetToolTip(this.btn_Busca, "Buscar reservación");
+            this.btn_Busca.UseVisualStyleBackColor = false;
+            this.btn_Busca.Click += new System.EventHandler(this.btn_Busca_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Guardar;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(289, 469);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(36, 36);
+            this.button2.TabIndex = 37;
+            this.tot_Ayuda.SetToolTip(this.button2, "Guardar Reservación");
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::Reservaciones_Delfinario.Properties.Resources.Ok;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(555, 140);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(36, 36);
+            this.button1.TabIndex = 21;
+            this.tot_Ayuda.SetToolTip(this.button1, "Agregar Reservación");
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frm_Reservaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 511);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.comboBox8);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btn_Busca);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label17);
@@ -733,7 +752,8 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_Busca;
         private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.Button button4;
     }
 }

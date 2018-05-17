@@ -80,6 +80,12 @@
     <Compile Include="Formularios\frm_ConfiguraServidor.Designer.cs">
       <DependentUpon>frm_ConfiguraServidor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frm_ConsultaReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_ConsultaReservas.Designer.cs">
+      <DependentUpon>frm_ConsultaReservas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frm_Disponible.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,18 @@
     <Compile Include="Formularios\frm_Reservaciones.Designer.cs">
       <DependentUpon>frm_Reservaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frm_TipoCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_TipoCambio.Designer.cs">
+      <DependentUpon>frm_TipoCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frm_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_Usuarios.Designer.cs">
+      <DependentUpon>frm_Usuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\frm_ConectaBD.resx">
@@ -105,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_ConfiguraServidor.resx">
       <DependentUpon>frm_ConfiguraServidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_ConsultaReservas.resx">
+      <DependentUpon>frm_ConsultaReservas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_Disponible.resx">
       <DependentUpon>frm_Disponible.cs</DependentUpon>
@@ -114,6 +135,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_Reservaciones.resx">
       <DependentUpon>frm_Reservaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_TipoCambio.resx">
+      <DependentUpon>frm_TipoCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_Usuarios.resx">
+      <DependentUpon>frm_Usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -151,12 +178,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Recursos\Billete.png" />
     <Content Include="Recursos\Borrar.png" />
     <Content Include="Recursos\Buscar.png" />
     <Content Include="Recursos\Calendario-Reloj.png" />
     <Content Include="Recursos\Cancelar.png" />
     <Content Include="Recursos\Carpeta.png" />
     <Content Include="Recursos\close.png" />
+    <Content Include="Recursos\Excel.png" />
     <Content Include="Recursos\Fondo.jpg" />
     <Content Include="Recursos\Fotos.png" />
     <Content Include="Recursos\Guardar.png" />
