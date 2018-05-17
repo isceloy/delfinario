@@ -76,5 +76,12 @@ namespace Reservaciones_Delfinario
             frmU.MdiParent = this.MdiParent;
             frmU.Show();
         }
+
+        private void tmi_Programas_Click(object sender, EventArgs e)
+        {
+            frm_TipoNados frmTN = new frm_TipoNados();
+            frmTN.MdiParent = this.MdiParent;
+            frmTN.Show();
+        }
     }
 }

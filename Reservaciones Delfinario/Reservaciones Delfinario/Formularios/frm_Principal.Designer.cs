@@ -29,15 +29,16 @@
         private void InitializeComponent()
         {
             this.ms_Barra = new System.Windows.Forms.MenuStrip();
-            this.ss_Estado = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.mi_Reservaciones = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Disponibilidad = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Fotos = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Catalagos = new System.Windows.Forms.ToolStripMenuItem();
             this.tmi_TipoCambio = new System.Windows.Forms.ToolStripMenuItem();
+            this.tmi_Programas = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Usuarios = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Reportes = new System.Windows.Forms.ToolStripMenuItem();
+            this.ss_Estado = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.ms_Barra.SuspendLayout();
             this.ss_Estado.SuspendLayout();
             this.SuspendLayout();
@@ -58,22 +59,6 @@
             this.ms_Barra.Size = new System.Drawing.Size(1008, 56);
             this.ms_Barra.TabIndex = 0;
             this.ms_Barra.Text = "MenuStrip";
-            // 
-            // ss_Estado
-            // 
-            this.ss_Estado.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel});
-            this.ss_Estado.Location = new System.Drawing.Point(0, 587);
-            this.ss_Estado.Name = "ss_Estado";
-            this.ss_Estado.Size = new System.Drawing.Size(1008, 22);
-            this.ss_Estado.TabIndex = 2;
-            this.ss_Estado.Text = "StatusStrip";
-            // 
-            // toolStripStatusLabel
-            // 
-            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
-            this.toolStripStatusLabel.Text = "Estado";
             // 
             // mi_Reservaciones
             // 
@@ -120,7 +105,8 @@
             // 
             this.mi_Catalagos.AutoToolTip = true;
             this.mi_Catalagos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tmi_TipoCambio});
+            this.tmi_TipoCambio,
+            this.tmi_Programas});
             this.mi_Catalagos.Image = global::Reservaciones_Delfinario.Properties.Resources.Carpeta;
             this.mi_Catalagos.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Catalagos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -140,6 +126,13 @@
             this.tmi_TipoCambio.Size = new System.Drawing.Size(157, 22);
             this.tmi_TipoCambio.Text = "Tipo de cambio";
             this.tmi_TipoCambio.Click += new System.EventHandler(this.tmi_TipoCambio_Click);
+            // 
+            // tmi_Programas
+            // 
+            this.tmi_Programas.Name = "tmi_Programas";
+            this.tmi_Programas.Size = new System.Drawing.Size(157, 22);
+            this.tmi_Programas.Text = "Programas";
+            this.tmi_Programas.Click += new System.EventHandler(this.tmi_Programas_Click);
             // 
             // mi_Usuarios
             // 
@@ -167,6 +160,22 @@
             this.mi_Reportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Reportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Reportes.ToolTipText = "Reportes";
+            // 
+            // ss_Estado
+            // 
+            this.ss_Estado.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel});
+            this.ss_Estado.Location = new System.Drawing.Point(0, 587);
+            this.ss_Estado.Name = "ss_Estado";
+            this.ss_Estado.Size = new System.Drawing.Size(1008, 22);
+            this.ss_Estado.TabIndex = 2;
+            this.ss_Estado.Text = "StatusStrip";
+            // 
+            // toolStripStatusLabel
+            // 
+            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
+            this.toolStripStatusLabel.Text = "Estado";
             // 
             // frm_Pricipal
             // 
@@ -206,6 +215,7 @@
         private System.Windows.Forms.ToolStripMenuItem mi_Catalagos;
         private System.Windows.Forms.ToolStripMenuItem tmi_TipoCambio;
         private System.Windows.Forms.ToolStripMenuItem mi_Reportes;
+        private System.Windows.Forms.ToolStripMenuItem tmi_Programas;
     }
 }
 
