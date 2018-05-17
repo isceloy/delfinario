@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Reservaciones_Delfinario
+namespace Reservaciones_Delfinario.Formularios
 {
     public partial class frm_TipoNados : Form
     {

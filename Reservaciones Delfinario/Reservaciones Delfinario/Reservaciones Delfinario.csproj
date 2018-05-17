@@ -110,6 +110,12 @@
     <Compile Include="Formularios\frm_TipoCambio.Designer.cs">
       <DependentUpon>frm_TipoCambio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frm_TipoNados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_TipoNados.Designer.cs">
+      <DependentUpon>frm_TipoNados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frm_Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_TipoCambio.resx">
       <DependentUpon>frm_TipoCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_TipoNados.resx">
+      <DependentUpon>frm_TipoNados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_Usuarios.resx">
       <DependentUpon>frm_Usuarios.cs</DependentUpon>
