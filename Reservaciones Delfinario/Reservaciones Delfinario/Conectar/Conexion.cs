@@ -99,44 +99,6 @@ namespace Reservaciones_Delfinario.Conectar
         }
 
         /// <summary>
-        /// Consultar usuarios en la base de datos para iniciar sesión
-        /// </summary>
-        /// <param name="user"></param>
-        /// <param name="pass"></param>
-        /// <returns>Tipo de usuario</returns>
-        public String Consulta_Usuario(String user, String pass)
-        {
-            Query = "Select tipo from tbl_usuarios where usuario = '" + user + "' && clave = '" + pass + "';";
-            cmd.Connection = conn;
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = Query;
-            String Tipo_Usuario = "";
-            try
-            {
-                dr = cmd.ExecuteReader();
-                if (dr.HasRows)
-                {
-                    while (dr.Read())
-                    {
-                        Tipo_Usuario = dr[0].ToString();
-                    }
-                    dr.Close();
-                    return Tipo_Usuario;
-                }
-                else
-                {
-                    dr.Close();
-                    return "Usuario y/o contraseña incorrectos";
-                }
-            }
-            catch (MySqlException me)
-            {
-                dr.Close();
-                return "Error al intentar conectar con la base de datos";
-            }
-        }
-
-        /// <summary>
         /// Ejecuta un Query
         /// </summary>
         /// <param name="Query">Cadena que contiene la consulta</param>

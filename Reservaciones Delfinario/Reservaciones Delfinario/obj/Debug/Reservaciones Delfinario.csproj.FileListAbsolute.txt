@@ -30,3 +30,7 @@ C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservacion
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Usuarios.resources
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Properties.Resources.resources
 C:\Users\ARLETT\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csproj.GenerateResource.Cache
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones Delfinario.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Agentes.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_Productos.resources
+C:\Users\Jorge Trejo\Documents\GitHub\delfinario\Reservaciones Delfinario\Reservaciones Delfinario\obj\Debug\Reservaciones_Delfinario.Formularios.frm_TipoNados.resources

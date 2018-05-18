@@ -39,6 +39,11 @@
             this.mi_Reportes = new System.Windows.Forms.ToolStripMenuItem();
             this.ss_Estado = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaReservacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ms_Barra.SuspendLayout();
             this.ss_Estado.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +68,9 @@
             // mi_Reservaciones
             // 
             this.mi_Reservaciones.AutoToolTip = true;
+            this.mi_Reservaciones.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reservacionesToolStripMenuItem,
+            this.consultaReservacionesToolStripMenuItem});
             this.mi_Reservaciones.Image = global::Reservaciones_Delfinario.Properties.Resources.Registro;
             this.mi_Reservaciones.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Reservaciones.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -72,7 +80,6 @@
             this.mi_Reservaciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Reservaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Reservaciones.ToolTipText = "Reservaciones";
-            this.mi_Reservaciones.Click += new System.EventHandler(this.mi_Reservaciones_Click);
             // 
             // mi_Disponibilidad
             // 
@@ -106,6 +113,7 @@
             this.mi_Catalagos.AutoToolTip = true;
             this.mi_Catalagos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tmi_TipoCambio,
+            this.nadosToolStripMenuItem,
             this.tmi_Programas});
             this.mi_Catalagos.Image = global::Reservaciones_Delfinario.Properties.Resources.Carpeta;
             this.mi_Catalagos.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -137,6 +145,9 @@
             // mi_Usuarios
             // 
             this.mi_Usuarios.AutoToolTip = true;
+            this.mi_Usuarios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.usuariosToolStripMenuItem,
+            this.agentesToolStripMenuItem});
             this.mi_Usuarios.Image = global::Reservaciones_Delfinario.Properties.Resources.Usuarios;
             this.mi_Usuarios.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Usuarios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -146,7 +157,6 @@
             this.mi_Usuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Usuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Usuarios.ToolTipText = "Usuarios";
-            this.mi_Usuarios.Click += new System.EventHandler(this.mi_Usuarios_Click);
             // 
             // mi_Reportes
             // 
@@ -177,6 +187,42 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.Image = global::Reservaciones_Delfinario.Properties.Resources.Usuario;
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
+            // 
+            // agentesToolStripMenuItem
+            // 
+            this.agentesToolStripMenuItem.Image = global::Reservaciones_Delfinario.Properties.Resources.Agentes;
+            this.agentesToolStripMenuItem.Name = "agentesToolStripMenuItem";
+            this.agentesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.agentesToolStripMenuItem.Text = "Agentes";
+            this.agentesToolStripMenuItem.Click += new System.EventHandler(this.agentesToolStripMenuItem_Click);
+            // 
+            // reservacionesToolStripMenuItem
+            // 
+            this.reservacionesToolStripMenuItem.Name = "reservacionesToolStripMenuItem";
+            this.reservacionesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.reservacionesToolStripMenuItem.Text = "Reservaciones";
+            this.reservacionesToolStripMenuItem.Click += new System.EventHandler(this.reservacionesToolStripMenuItem_Click);
+            // 
+            // consultaReservacionesToolStripMenuItem
+            // 
+            this.consultaReservacionesToolStripMenuItem.Name = "consultaReservacionesToolStripMenuItem";
+            this.consultaReservacionesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.consultaReservacionesToolStripMenuItem.Text = "Consulta reservaciones";
+            this.consultaReservacionesToolStripMenuItem.Click += new System.EventHandler(this.consultaReservacionesToolStripMenuItem_Click);
+            // 
+            // nadosToolStripMenuItem
+            // 
+            this.nadosToolStripMenuItem.Name = "nadosToolStripMenuItem";
+            this.nadosToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.nadosToolStripMenuItem.Text = "Nados";
+            // 
             // frm_Pricipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -189,7 +235,6 @@
             this.MainMenuStrip = this.ms_Barra;
             this.MinimumSize = new System.Drawing.Size(1024, 597);
             this.Name = "frm_Pricipal";
-            this.Opacity = 0.99D;
             this.Text = "MENU PRINCIPAL";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Pricipal_FormClosing);
@@ -216,6 +261,11 @@
         private System.Windows.Forms.ToolStripMenuItem tmi_TipoCambio;
         private System.Windows.Forms.ToolStripMenuItem mi_Reportes;
         private System.Windows.Forms.ToolStripMenuItem tmi_Programas;
+        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reservacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultaReservacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nadosToolStripMenuItem;
     }
 }
 

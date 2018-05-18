@@ -68,6 +68,12 @@
     <Compile Include="Conectar\Conexion.cs" />
     <Compile Include="DAO\DAO_Entrar.cs" />
     <Compile Include="DTO\DTO_Entrar.cs" />
+    <Compile Include="Formularios\frm_Agentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_Agentes.Designer.cs">
+      <DependentUpon>frm_Agentes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frm_ConectaBD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\frm_Agentes.resx">
+      <DependentUpon>frm_Agentes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_ConectaBD.resx">
       <DependentUpon>frm_ConectaBD.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +205,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Recursos\Agentes.png" />
     <Content Include="Recursos\Billete.png" />
     <Content Include="Recursos\Borrar.png" />
     <Content Include="Recursos\Buscar.png" />
@@ -203,6 +213,7 @@
     <Content Include="Recursos\Cancelar.png" />
     <Content Include="Recursos\Carpeta.png" />
     <Content Include="Recursos\close.png" />
+    <Content Include="Recursos\Editar.png" />
     <Content Include="Recursos\Excel.png" />
     <Content Include="Recursos\Fondo.jpg" />
     <Content Include="Recursos\Fotos.png" />
@@ -210,6 +221,7 @@
     <Content Include="Recursos\Impresora.png" />
     <Content Include="Recursos\Llave.png" />
     <Content Include="Recursos\logo_delfiniti.png" />
+    <Content Include="Recursos\Nuevo.png" />
     <Content Include="Recursos\Ok.png" />
     <Content Include="Recursos\Registro.png" />
     <Content Include="Recursos\Usuario.png" />

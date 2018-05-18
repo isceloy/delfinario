@@ -42,25 +42,11 @@ namespace Reservaciones_Delfinario
             frm.Show();
         }
 
-        private void disponibilidadToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frm_Disponible formulario = new frm_Disponible();
-            formulario.MdiParent = this;
-            formulario.Show();
-        }
-
         private void mi_Disponibilidad_Click(object sender, EventArgs e)
         {
             frm_Disponible formulario = new frm_Disponible();
             formulario.MdiParent = this.MdiParent;
             formulario.Show();
-        }
-
-        private void mi_Reservaciones_Click(object sender, EventArgs e)
-        {
-            frm_Reservaciones frmReservas = new frm_Reservaciones();
-            frmReservas.MdiParent = this.MdiParent;
-            frmReservas.Show();
         }
 
         private void tmi_TipoCambio_Click(object sender, EventArgs e)
@@ -70,18 +56,39 @@ namespace Reservaciones_Delfinario
             frmTC.Show();
         }
 
-        private void mi_Usuarios_Click(object sender, EventArgs e)
+        private void tmi_Programas_Click(object sender, EventArgs e)
+        {
+            frm_TipoNados frmTN = new frm_TipoNados();
+            frmTN.MdiParent = this.MdiParent;
+            frmTN.Show();
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_Usuarios frmU = new frm_Usuarios();
             frmU.MdiParent = this.MdiParent;
             frmU.Show();
         }
 
-        private void tmi_Programas_Click(object sender, EventArgs e)
+        private void agentesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_TipoNados frmTN = new frm_TipoNados();
-            frmTN.MdiParent = this.MdiParent;
-            frmTN.Show();
+            frm_Agentes frmA = new frm_Agentes();
+            frmA.MdiParent = this.MdiParent;
+            frmA.Show();
+        }
+
+        private void reservacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Reservaciones frmReservas = new frm_Reservaciones();
+            frmReservas.MdiParent = this.MdiParent;
+            frmReservas.Show();
+        }
+
+        private void consultaReservacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_ConsultaReservas frmCR = new frm_ConsultaReservas();
+            frmCR.MdiParent = this.MdiParent;
+            frmCR.Show();
         }
     }
 }

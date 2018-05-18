@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Reservaciones_Delfinario.Formularios
 {
-    public partial class frm_Usuarios : Form
+    public partial class frm_Agentes : Form
     {
-        public frm_Usuarios()
+        public frm_Agentes()
         {
             InitializeComponent();
-        }
-
-        private void btn_Agentes_Click(object sender, EventArgs e)
-        {
-            frm_Agentes frmA = new frm_Agentes();
-            frmA.Show();
-            this.Dispose();
         }
     }
 }
