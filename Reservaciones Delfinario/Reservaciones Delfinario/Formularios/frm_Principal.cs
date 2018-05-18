@@ -90,5 +90,12 @@ namespace Reservaciones_Delfinario
             frmCR.MdiParent = this.MdiParent;
             frmCR.Show();
         }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Productos frmP = new frm_Productos();
+            frmP.MdiParent = this.MdiParent;
+            frmP.Show();
+        }
     }
 }

@@ -80,6 +80,12 @@
     <Compile Include="Formularios\frm_ConectaBD.Designer.cs">
       <DependentUpon>frm_ConectaBD.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frm_ConfigurarPrograma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_ConfigurarPrograma.Designer.cs">
+      <DependentUpon>frm_ConfigurarPrograma.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frm_ConfiguraServidor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_ConectaBD.resx">
       <DependentUpon>frm_ConectaBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_ConfigurarPrograma.resx">
+      <DependentUpon>frm_ConfigurarPrograma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_ConfiguraServidor.resx">
       <DependentUpon>frm_ConfiguraServidor.cs</DependentUpon>

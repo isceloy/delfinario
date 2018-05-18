@@ -30,20 +30,21 @@
         {
             this.ms_Barra = new System.Windows.Forms.MenuStrip();
             this.mi_Reservaciones = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaReservacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Disponibilidad = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Fotos = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Catalagos = new System.Windows.Forms.ToolStripMenuItem();
             this.tmi_TipoCambio = new System.Windows.Forms.ToolStripMenuItem();
+            this.nadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tmi_Programas = new System.Windows.Forms.ToolStripMenuItem();
+            this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Usuarios = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Reportes = new System.Windows.Forms.ToolStripMenuItem();
             this.ss_Estado = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reservacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaReservacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ms_Barra.SuspendLayout();
             this.ss_Estado.SuspendLayout();
             this.SuspendLayout();
@@ -81,6 +82,20 @@
             this.mi_Reservaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Reservaciones.ToolTipText = "Reservaciones";
             // 
+            // reservacionesToolStripMenuItem
+            // 
+            this.reservacionesToolStripMenuItem.Name = "reservacionesToolStripMenuItem";
+            this.reservacionesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.reservacionesToolStripMenuItem.Text = "Reservaciones";
+            this.reservacionesToolStripMenuItem.Click += new System.EventHandler(this.reservacionesToolStripMenuItem_Click);
+            // 
+            // consultaReservacionesToolStripMenuItem
+            // 
+            this.consultaReservacionesToolStripMenuItem.Name = "consultaReservacionesToolStripMenuItem";
+            this.consultaReservacionesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.consultaReservacionesToolStripMenuItem.Text = "Consulta reservaciones";
+            this.consultaReservacionesToolStripMenuItem.Click += new System.EventHandler(this.consultaReservacionesToolStripMenuItem_Click);
+            // 
             // mi_Disponibilidad
             // 
             this.mi_Disponibilidad.AutoToolTip = true;
@@ -114,7 +129,8 @@
             this.mi_Catalagos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tmi_TipoCambio,
             this.nadosToolStripMenuItem,
-            this.tmi_Programas});
+            this.tmi_Programas,
+            this.productosToolStripMenuItem});
             this.mi_Catalagos.Image = global::Reservaciones_Delfinario.Properties.Resources.Carpeta;
             this.mi_Catalagos.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Catalagos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -135,12 +151,25 @@
             this.tmi_TipoCambio.Text = "Tipo de cambio";
             this.tmi_TipoCambio.Click += new System.EventHandler(this.tmi_TipoCambio_Click);
             // 
+            // nadosToolStripMenuItem
+            // 
+            this.nadosToolStripMenuItem.Name = "nadosToolStripMenuItem";
+            this.nadosToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.nadosToolStripMenuItem.Text = "Nados";
+            // 
             // tmi_Programas
             // 
             this.tmi_Programas.Name = "tmi_Programas";
             this.tmi_Programas.Size = new System.Drawing.Size(157, 22);
             this.tmi_Programas.Text = "Programas";
             this.tmi_Programas.Click += new System.EventHandler(this.tmi_Programas_Click);
+            // 
+            // productosToolStripMenuItem
+            // 
+            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.productosToolStripMenuItem.Text = "Productos";
+            this.productosToolStripMenuItem.Click += new System.EventHandler(this.productosToolStripMenuItem_Click);
             // 
             // mi_Usuarios
             // 
@@ -157,6 +186,22 @@
             this.mi_Usuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mi_Usuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.mi_Usuarios.ToolTipText = "Usuarios";
+            // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.Image = global::Reservaciones_Delfinario.Properties.Resources.Usuario;
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
+            // 
+            // agentesToolStripMenuItem
+            // 
+            this.agentesToolStripMenuItem.Image = global::Reservaciones_Delfinario.Properties.Resources.Agentes;
+            this.agentesToolStripMenuItem.Name = "agentesToolStripMenuItem";
+            this.agentesToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.agentesToolStripMenuItem.Text = "Agentes";
+            this.agentesToolStripMenuItem.Click += new System.EventHandler(this.agentesToolStripMenuItem_Click);
             // 
             // mi_Reportes
             // 
@@ -186,42 +231,6 @@
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
-            // 
-            // usuariosToolStripMenuItem
-            // 
-            this.usuariosToolStripMenuItem.Image = global::Reservaciones_Delfinario.Properties.Resources.Usuario;
-            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.usuariosToolStripMenuItem.Text = "Usuarios";
-            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
-            // 
-            // agentesToolStripMenuItem
-            // 
-            this.agentesToolStripMenuItem.Image = global::Reservaciones_Delfinario.Properties.Resources.Agentes;
-            this.agentesToolStripMenuItem.Name = "agentesToolStripMenuItem";
-            this.agentesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.agentesToolStripMenuItem.Text = "Agentes";
-            this.agentesToolStripMenuItem.Click += new System.EventHandler(this.agentesToolStripMenuItem_Click);
-            // 
-            // reservacionesToolStripMenuItem
-            // 
-            this.reservacionesToolStripMenuItem.Name = "reservacionesToolStripMenuItem";
-            this.reservacionesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.reservacionesToolStripMenuItem.Text = "Reservaciones";
-            this.reservacionesToolStripMenuItem.Click += new System.EventHandler(this.reservacionesToolStripMenuItem_Click);
-            // 
-            // consultaReservacionesToolStripMenuItem
-            // 
-            this.consultaReservacionesToolStripMenuItem.Name = "consultaReservacionesToolStripMenuItem";
-            this.consultaReservacionesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.consultaReservacionesToolStripMenuItem.Text = "Consulta reservaciones";
-            this.consultaReservacionesToolStripMenuItem.Click += new System.EventHandler(this.consultaReservacionesToolStripMenuItem_Click);
-            // 
-            // nadosToolStripMenuItem
-            // 
-            this.nadosToolStripMenuItem.Name = "nadosToolStripMenuItem";
-            this.nadosToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.nadosToolStripMenuItem.Text = "Nados";
             // 
             // frm_Pricipal
             // 
@@ -266,6 +275,7 @@
         private System.Windows.Forms.ToolStripMenuItem reservacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaReservacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
     }
 }
 
