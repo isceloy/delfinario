@@ -190,7 +190,7 @@
             "ENCUENTRO",
             "ENCUENTRO AZUL",
             "EXPERIENCIA"});
-            this.listBox1.Location = new System.Drawing.Point(8, 44);
+            this.listBox1.Location = new System.Drawing.Point(8, 52);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(282, 132);
             this.listBox1.TabIndex = 5;
@@ -198,9 +198,9 @@
             // btn_Info
             // 
             this.btn_Info.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Info.Location = new System.Drawing.Point(237, 16);
+            this.btn_Info.Location = new System.Drawing.Point(237, 11);
             this.btn_Info.Name = "btn_Info";
-            this.btn_Info.Size = new System.Drawing.Size(53, 23);
+            this.btn_Info.Size = new System.Drawing.Size(53, 28);
             this.btn_Info.TabIndex = 2;
             this.btn_Info.Text = "Info";
             this.btn_Info.UseVisualStyleBackColor = true;
@@ -208,9 +208,9 @@
             // btn_Borrar
             // 
             this.btn_Borrar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Borrar.Location = new System.Drawing.Point(140, 15);
+            this.btn_Borrar.Location = new System.Drawing.Point(143, 11);
             this.btn_Borrar.Name = "btn_Borrar";
-            this.btn_Borrar.Size = new System.Drawing.Size(65, 23);
+            this.btn_Borrar.Size = new System.Drawing.Size(65, 27);
             this.btn_Borrar.TabIndex = 3;
             this.btn_Borrar.Text = "Borrar";
             this.btn_Borrar.UseVisualStyleBackColor = true;
@@ -218,9 +218,9 @@
             // btn_Editar
             // 
             this.btn_Editar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Editar.Location = new System.Drawing.Point(72, 15);
+            this.btn_Editar.Location = new System.Drawing.Point(76, 11);
             this.btn_Editar.Name = "btn_Editar";
-            this.btn_Editar.Size = new System.Drawing.Size(62, 23);
+            this.btn_Editar.Size = new System.Drawing.Size(62, 27);
             this.btn_Editar.TabIndex = 4;
             this.btn_Editar.Text = "Editar";
             this.btn_Editar.UseVisualStyleBackColor = true;
@@ -228,9 +228,9 @@
             // btn_Agregar
             // 
             this.btn_Agregar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Agregar.Location = new System.Drawing.Point(8, 15);
+            this.btn_Agregar.Location = new System.Drawing.Point(8, 11);
             this.btn_Agregar.Name = "btn_Agregar";
-            this.btn_Agregar.Size = new System.Drawing.Size(59, 23);
+            this.btn_Agregar.Size = new System.Drawing.Size(62, 27);
             this.btn_Agregar.TabIndex = 1;
             this.btn_Agregar.Text = "Agregar";
             this.btn_Agregar.UseVisualStyleBackColor = true;
@@ -389,7 +389,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(669, 294);
+            this.ClientSize = new System.Drawing.Size(669, 291);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
