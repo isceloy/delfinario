@@ -97,5 +97,16 @@ namespace Reservaciones_Delfinario
             frmP.MdiParent = this.MdiParent;
             frmP.Show();
         }
+
+        private void nadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
+            frm_TipoNados childForm = new frm_TipoNados ();
+            childForm.MdiParent = parentForm.MdiParent;
+            childForm.Show();
+
+        }
     }
 }
