@@ -44,69 +44,82 @@ namespace Reservaciones_Delfinario
 
         private void mi_Disponibilidad_Click(object sender, EventArgs e)
         {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
             frm_Disponible formulario = new frm_Disponible();
-            formulario.MdiParent = this.MdiParent;
+            formulario.MdiParent = parentForm.MdiParent;
             formulario.Show();
         }
 
         private void tmi_TipoCambio_Click(object sender, EventArgs e)
         {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
             frm_TipoCambio frmTC = new frm_TipoCambio();
-            frmTC.MdiParent = this.MdiParent;
+            frmTC.MdiParent = parentForm.MdiParent;
             frmTC.Show();
         }
 
         private void tmi_Programas_Click(object sender, EventArgs e)
         {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
             frm_TipoNados frmTN = new frm_TipoNados();
-            frmTN.MdiParent = this.MdiParent;
+            frmTN.MdiParent = parentForm.MdiParent;
             frmTN.Show();
         }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
             frm_Usuarios frmU = new frm_Usuarios();
-            frmU.MdiParent = this.MdiParent;
+            frmU.MdiParent = parentForm.MdiParent;
             frmU.Show();
         }
 
         private void agentesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
             frm_Agentes frmA = new frm_Agentes();
-            frmA.MdiParent = this.MdiParent;
+            frmA.MdiParent = parentForm.MdiParent;
             frmA.Show();
         }
 
         private void reservacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
             frm_Reservaciones frmReservas = new frm_Reservaciones();
-            frmReservas.MdiParent = this.MdiParent;
+            frmReservas.MdiParent = parentForm.MdiParent;
             frmReservas.Show();
         }
 
         private void consultaReservacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
+            parentForm.MdiParent = this;
+
             frm_ConsultaReservas frmCR = new frm_ConsultaReservas();
-            frmCR.MdiParent = this.MdiParent;
+            frmCR.MdiParent = parentForm.MdiParent;
             frmCR.Show();
         }
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_Productos frmP = new frm_Productos();
-            frmP.MdiParent = this.MdiParent;
-            frmP.Show();
-        }
-
-        private void nadosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
             System.Windows.Forms.Form parentForm = new System.Windows.Forms.Form();
             parentForm.MdiParent = this;
 
-            frm_TipoNados childForm = new frm_TipoNados ();
-            childForm.MdiParent = parentForm.MdiParent;
-            childForm.Show();
-
+            frm_Productos frmP = new frm_Productos();
+            frmP.MdiParent = parentForm.MdiParent;
+            frmP.Show();
         }
     }
 }

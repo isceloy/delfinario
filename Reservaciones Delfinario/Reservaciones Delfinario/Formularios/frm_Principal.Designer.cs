@@ -36,7 +36,6 @@
             this.mi_Fotos = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Catalagos = new System.Windows.Forms.ToolStripMenuItem();
             this.tmi_TipoCambio = new System.Windows.Forms.ToolStripMenuItem();
-            this.form_TipoNado = new System.Windows.Forms.ToolStripMenuItem();
             this.tmi_Programas = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mi_Usuarios = new System.Windows.Forms.ToolStripMenuItem();
@@ -128,7 +127,6 @@
             this.mi_Catalagos.AutoToolTip = true;
             this.mi_Catalagos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tmi_TipoCambio,
-            this.form_TipoNado,
             this.tmi_Programas,
             this.productosToolStripMenuItem});
             this.mi_Catalagos.Image = global::Reservaciones_Delfinario.Properties.Resources.Carpeta;
@@ -150,13 +148,6 @@
             this.tmi_TipoCambio.Size = new System.Drawing.Size(157, 22);
             this.tmi_TipoCambio.Text = "Tipo de cambio";
             this.tmi_TipoCambio.Click += new System.EventHandler(this.tmi_TipoCambio_Click);
-            // 
-            // form_TipoNado
-            // 
-            this.form_TipoNado.Name = "form_TipoNado";
-            this.form_TipoNado.Size = new System.Drawing.Size(157, 22);
-            this.form_TipoNado.Text = "Nados";
-            this.form_TipoNado.Click += new System.EventHandler(this.nadosToolStripMenuItem_Click);
             // 
             // tmi_Programas
             // 
@@ -275,7 +266,6 @@
         private System.Windows.Forms.ToolStripMenuItem agentesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reservacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaReservacionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem form_TipoNado;
         private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
     }
 }
